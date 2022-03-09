@@ -57,7 +57,7 @@ function DecimalToBinary(input) {
     answer += sortedNum.includes(bin) ? "1" : "0";
   });
 
-  return +answer;
+  return answer;
 }
 
 function DecimalToOctal(input) {
