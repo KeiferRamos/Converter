@@ -41,8 +41,8 @@ function DecimalToBinary(input) {
     if (ToAdd > userInput) {
       break;
     }
-    Binary.push(ToAdd);
     tempVal = ToAdd;
+    Binary.push(ToAdd);
   }
 
   for (var i = Binary.length - 1; i > -1; i--) {
